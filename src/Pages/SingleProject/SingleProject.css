@@ -1,0 +1,23 @@
+.details-img img{
+    height: 100%
+}
+.project-description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.details-project{
+    margin-top: 100px;
+}
+.project-name{
+    font-size: 50px;
+    font-weight: bolder;
+}
+@media (max-width: 1080px) {    
+    .img1{
+        padding-bottom: 20px;
+    }
+    .img2{
+        padding-bottom: 20px;
+    }
+  }
