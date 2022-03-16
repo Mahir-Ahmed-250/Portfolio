@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from "react-typical";
 import cv from '../../../cv/Mahir Resume.pdf'
-import img1 from './1.jpg'
+import img1 from '../../../Img/hi.gif'
 
 import './TopBanner.css'
 const TopBanner = () => {
