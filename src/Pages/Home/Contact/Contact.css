@@ -1,36 +1,43 @@
-.contact{
+.contact {
     margin-bottom: 40px;
 }
-.contact-text{
+
+.contact-text {
     font-size: 60px;
     font-weight: 700;
-    padding-top: 70px ;
+    padding-top: 70px;
 }
-.contact-title{
+
+.contact-title {
     font-size: 60px;
     width: 80%;
     font-weight: bolder;
 }
-.contact-info-item{
-    display:flex ;
+
+.contact-info-item {
+    display: flex;
     align-items: center;
     margin: 50px 0px;
     font-weight: 500;
     font-size: 25px;
     width: 70%;
 }
-.contact-icon{
+
+.contact-icon {
     width: 30px;
     height: 40px;
     margin-right: 20px;
 }
-.contact-description{
+
+.contact-description {
     font-size: 35px;
 }
-form{
+
+form {
     margin-top: 20px;
 }
-input{
+
+input {
     width: 75%;
     height: 50px;
     border: none;
@@ -40,14 +47,22 @@ input{
     font-size: 19px;
     padding-left: 10px;
 }
-textarea{
+
+textarea {
     width: 100%;
     margin: 10px 0px;
     font-size: 19px;
     padding-left: 10px;
 }
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
 @media screen and (max-width:480px) {
-     .share{
+    .share {
         text-align: center;
     }
 }
