@@ -31,6 +31,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 setDone(true);
+                setShow(true)
                 setName("")
                 setSubject("");
                 setEmail("");
@@ -79,7 +80,7 @@ const Contact = () => {
                             value={message} required />
 
 
-                        <button className="btn btn-success w-25 " id="liveToastBtn" onClick={() => setShow(true)}>Send <i class="fa-solid fa-paper-plane ms-2"></i></button>
+                        <button className="btn btn-success w-25 " >Send <i class="fa-solid fa-paper-plane ms-2"></i></button>
 
 
                         {done &&
